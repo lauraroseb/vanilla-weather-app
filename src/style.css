@@ -1,3 +1,30 @@
+body {
+  font-family: "Zen Kurenaido", sans-serif;
+}
+
+.weather-app {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 2px solid #41ae5c;
+  border-radius: 15px;
+}
+
 h1 {
-  color: blue;
+  color: #2a293a;
+  font-size: 44px;
+  font-weight: 100;
+  line-height: 30px;
+  margin-bottom: 0px;
+}
+ul {
+  margin: 3px;
+  padding: 3px;
+}
+li {
+  list-style: none;
+  color: #2a293a;
+  font-size: 18px;
+  font-weight: 100px;
+  line-height: 20px;
 }
