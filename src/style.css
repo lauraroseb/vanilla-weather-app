@@ -34,7 +34,20 @@ li {
 .overview {
   margin-bottom: 20px;
 }
-.icon {
-  max-width: 45px;
-  max-height: 45px;
+
+.weather-temperature img {
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+}
+.weather-temperature strong {
+  color: #2a293a;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400px;
+}
+.weather-temperature units {
+  position: relative;
+  font-size: 16px;
+  top: -32px;
 }
